@@ -31,32 +31,10 @@ Manual classification of X-ray images is resource-intensive and subject to varia
 - **Macro F1 Score**: 0.92
 - **Grad-CAM Visualizations** confirmed model attention on disease-relevant features
 
-## 📊 Visual Insights
-
-### Confusion Matrix
-![Confusion Matrix](reports/confusion_matrix.png)
-
-### Classification Report
-![Classification Report](reports/classification_report.png)
-
-### Project Workflow
-![Workflow Diagram](reports/workflow_diagram.png)
-
 ## 💼 Insurance & Reinsurance Relevance
 - **Underwriting**: Automate evaluation of dental diagnostics to assess health risk
 - **Claims**: Validate diagnosis-driven claims with image-based evidence
 - **Epidemiology**: Track regional trends in oral health using aggregate model outputs
-
-## 🗂 File Guide
-
-| File | Description |
-|------|-------------|
-| `notebooks/EDA.ipynb` | Initial data exploration and preprocessing steps |
-| `notebooks/model_training.ipynb` | CNN training and evaluation pipeline |
-| `scripts/preprocessing.py` | Data preprocessing and augmentation functions |
-| `reports/` | Visualizations (confusion matrix, report, workflow) |
-| `dataset/` | Sample or linked X-ray images |
-| `requirements.txt` | Python dependencies |
 
 ## 🔁 Model Workflow Summary
 1. **Data Collection**: Acquire and clean X-ray datasets  
